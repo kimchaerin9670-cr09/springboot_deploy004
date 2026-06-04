@@ -8,7 +8,7 @@ public class HomeController {
 
 	@GetMapping("/")
 	public String getMethodName() {
-		return new String("Spring Boot 프로젝트");
+		return new String("SpringBoot Docker 배포");
 	}
 	
 }
