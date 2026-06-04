@@ -1,0 +1,14 @@
+package com.min.edu.ctrl;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HomeController {
+
+	@GetMapping("/")
+	public String getMethodName() {
+		return new String("Spring Boot 프로젝트");
+	}
+	
+}
